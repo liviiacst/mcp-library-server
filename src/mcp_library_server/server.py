@@ -14,4 +14,5 @@ def say_hello(name: str) -> str:
 
 def main():
     print("Iniciando Library Server...")
+    print(mcp.__dict__)
     mcp.run()
