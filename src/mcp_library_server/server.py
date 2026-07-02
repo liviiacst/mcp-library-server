@@ -11,6 +11,17 @@ def say_hello(name: str) -> str:
     """
     return f"Olá, {name}! Bem-vindo ao MCP."
 
+@mcp.resource("library://authors")
+def list_authors() -> str:
+    """
+    Retorna a lista de autores disponíveis.
+    """
+    return """
+        Robert C. Martin
+        Martin Fowler
+        Erich Gamma
+        Kent Beck
+        """
 
 def main():
     print("Iniciando Library Server...")
