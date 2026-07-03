@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "category": "Software Engineering",
+        "year": 2008
+    },
+    {
+        "id": 2,
+        "title": "Design Patterns",
+        "author": "Erich Gamma",
+        "category": "Software Engineering",
+        "year": 1994
+    }
+]
