@@ -11,6 +11,9 @@ def say_hello(name: str) -> str:
     """
     return f"Olá, {name}! Bem-vindo ao MCP."
 
+# Decorator (Servidor, registre a próxima função como um Resource) 
+# list_authors é o nome da função em Python.
+# library://authors é o identificador usado pelo cliente MCP.
 @mcp.resource("library://authors")
 def list_authors() -> str:
     """
